@@ -22,3 +22,9 @@ class MealData(models.Model) :
         now=timezone.now()
         if now<self.date:
             return super().save(*args,**kwargs)
+        
+
+
+
+
+# hi this is tariq bin bashar i want to update this file on my github.
